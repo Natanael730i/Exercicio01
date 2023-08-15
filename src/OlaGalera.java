@@ -21,9 +21,10 @@ public class OlaGalera {
 
         System.out.printf("A média do valor vendido é: %.2f\n\n\n", media);
 
-        System.out.printf("O novo valor da Coca-Cola é %.2f, \n" +
-                "o novo valor da Agua Mineral é %.2f, \n" +
-                "o novo valor da Cerveja Brahma é %.2f.", novoCocaCola, novaAguaMineral, novoCervejaBrehma);
+        System.out.printf("""
+                O novo valor da Coca-Cola é %.2f,\s
+                o novo valor da Agua Mineral é %.2f,\s
+                o novo valor da Cerveja Brahma é %.2f.""", novoCocaCola, novaAguaMineral, novoCervejaBrehma);
 
         System.out.printf("\n\n\nO valor que o senhor pode sacar é de: R$ %.2f\n\n\n", valorQueElePodeSacar);
     }
